@@ -8,6 +8,8 @@ describe "#my_uniq" do
   end
 end
 
+
+
 describe "Array#two_sum" do
   subject(:arr) {[-1,0,2,-2,1]}
   it "returns the indexes of array elements that sum to 0" do
@@ -25,6 +27,10 @@ describe "#my_transpose" do
   ]
     expect(my_transpose(matrix)).to eq(cols)
   end
+  context "when rectangular array passed in"
+    it 'returns the truth' do
+
+    end
 end
 
 describe "#stock_picker" do
